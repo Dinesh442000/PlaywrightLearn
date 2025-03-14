@@ -6,6 +6,6 @@ test('Locators',async ({page})=>{
     await page.locator('id=login2').click()
     //approach 2
     //await page.click('id=login2').click()
-    await page.locator('id=loginusername').fill("Dinesh123")
+    await page.locator('id=loginusername').fill("Dinesh1234")
     await page.locator('id=loginpassword').fill("Password");
 })
